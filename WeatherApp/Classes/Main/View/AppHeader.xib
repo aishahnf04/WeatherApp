@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CaviarDreams.ttf">
+            <string>CaviarDreams</string>
+        </array>
+        <array key="Caviar_Dreams_Bold.ttf">
+            <string>CaviarDreams-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppHeader" customModule="WeatherApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="zdv-Rz-nPI" id="CT7-bX-QDR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zdv-Rz-nPI">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKT-ec-bPA">
+                    <rect key="frame" x="294" y="12" width="71" height="36"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="20"/>
+                    <state key="normal" title="Settings">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WeatherApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iu7-fy-5Rk">
+                    <rect key="frame" x="10" y="15.5" width="143.5" height="29.5"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.96989073649668922" blue="0.93819189386232349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="bKT-ec-bPA" firstAttribute="baseline" secondItem="iu7-fy-5Rk" secondAttribute="baseline" id="0qy-9I-ncd"/>
+                <constraint firstItem="Kw0-kv-b1W" firstAttribute="trailing" secondItem="bKT-ec-bPA" secondAttribute="trailing" constant="10" id="HkW-yK-vmF"/>
+                <constraint firstItem="bKT-ec-bPA" firstAttribute="firstBaseline" secondItem="iu7-fy-5Rk" secondAttribute="baseline" id="TtI-Dp-cB2"/>
+                <constraint firstItem="bKT-ec-bPA" firstAttribute="centerY" secondItem="iu7-fy-5Rk" secondAttribute="centerY" id="Tzb-yP-zYe"/>
+                <constraint firstItem="bKT-ec-bPA" firstAttribute="centerY" secondItem="zdv-Rz-nPI" secondAttribute="centerY" id="U3a-SN-bKn"/>
+                <constraint firstItem="iu7-fy-5Rk" firstAttribute="leading" secondItem="Kw0-kv-b1W" secondAttribute="leading" constant="10" id="u8m-mi-H5K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Kw0-kv-b1W"/>
+            <point key="canvasLocation" x="-120.8" y="-665.6671664167917"/>
+        </view>
+    </objects>
+</document>

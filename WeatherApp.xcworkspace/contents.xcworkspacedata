@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:WeatherApp"
+      name = "WeatherApp">
+      <Group
+         location = "group:../Images"
+         name = "Images">
+         <FileRef
+            location = "group:iphone6_splash.png">
+         </FileRef>
+         <FileRef
+            location = "group:iphoneplus_splash.png">
+         </FileRef>
+         <FileRef
+            location = "group:iphonex_splash.png">
+         </FileRef>
+         <FileRef
+            location = "group:iphonexr_splash.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:../Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:../WeatherApp.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:../WeatherAppTests"
+         name = "WeatherAppTests">
+         <FileRef
+            location = "group:WeatherAppTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:../WeatherAppUITests"
+         name = "WeatherAppUITests">
+         <FileRef
+            location = "group:WeatherAppUITests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:WeatherApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

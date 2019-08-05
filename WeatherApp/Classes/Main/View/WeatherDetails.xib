@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CaviarDreams.ttf">
+            <string>CaviarDreams</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherDetails" customModule="WeatherApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="IPI-Oj-Cuv" id="pW3-Lu-yra"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="IPI-Oj-Cuv">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYe-bz-SBU">
+                    <rect key="frame" x="92" y="229" width="197" height="20"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKl-qE-Heo">
+                    <rect key="frame" x="91" y="83" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Res-8j-KCg">
+                    <rect key="frame" x="91" y="131" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckU-NZ-7OO">
+                    <rect key="frame" x="91" y="181" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CV4-8W-Pyg">
+                    <rect key="frame" x="92" y="47" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIM-e7-kUe">
+                    <rect key="frame" x="92" y="265" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGn-Ji-MR0">
+                    <rect key="frame" x="92" y="314" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fo-Pr-LSe">
+                    <rect key="frame" x="92" y="364" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind: South West 37 km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRB-gy-PLk">
+                    <rect key="frame" x="91" y="408" width="197" height="28"/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovp-uG-8bQ">
+                    <rect key="frame" x="302" y="450" width="36" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="More"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90196078430000004" green="0.89222038429999995" blue="0.88760776919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="1SE-h3-FfY"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="3iX-4S-2PH"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="4Jf-2A-Xri"/>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="57e-bl-js9"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="5Xw-Jx-Cbs"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="6Wd-E6-uNR"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="6hZ-i9-kwh"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="77l-t6-FA5"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="7tA-1S-PBP"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="8H3-BT-3dy"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="CF4-tw-fmE"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="Cw7-1c-srM"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="Ftw-C1-b96"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="Gbv-Pz-UV3"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="H21-1x-un3"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="HrO-Fy-s4L"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="J79-OO-IyQ"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="JKf-eC-YbF"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="K5A-9H-FuG"/>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="NED-QJ-fdY"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="OKB-4N-bDv"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="OKm-z5-pC0"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="Rqd-JM-RuM"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="RwW-rK-dva"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="Sf2-FH-0s3"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="TCN-J7-T63"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="TPH-TA-ipm"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="XEr-gR-BQ3"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="bNO-Ro-2cJ"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="bz2-ys-EGr"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="dT8-hU-Mpf"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="e3i-Fs-yIy"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="ebA-gK-5X5"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="ewc-sN-I3A"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="fY7-cY-0qB"/>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="fYm-Nw-UrE"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="fmL-Yg-1rL"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="haM-Sg-j43"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="iAh-nX-Vzf"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="iLU-Gz-fEk"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="kN6-po-5Kq"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="kvJ-nk-ifM"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="lCo-Ms-pdd"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="lUE-ue-s4Q"/>
+                <constraint firstItem="2fo-Pr-LSe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="lff-8J-ayv"/>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="mKe-pg-gkI"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="mmO-Wu-lVI"/>
+                <constraint firstItem="Res-8j-KCg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="nNn-3f-m0R"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="ngn-h4-ZYE"/>
+                <constraint firstItem="OGn-Ji-MR0" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="oYD-eC-xr4"/>
+                <constraint firstItem="OYe-bz-SBU" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="pqE-Uj-ein"/>
+                <constraint firstItem="yKl-qE-Heo" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="pu4-Hn-nm5"/>
+                <constraint firstItem="hRB-gy-PLk" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="spA-6J-R7a"/>
+                <constraint firstItem="RIM-e7-kUe" firstAttribute="centerY" secondItem="IPI-Oj-Cuv" secondAttribute="centerY" id="teT-YI-MVK"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="y5s-jk-I4t"/>
+                <constraint firstItem="CV4-8W-Pyg" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="yCG-gZ-GBr"/>
+                <constraint firstItem="ckU-NZ-7OO" firstAttribute="centerX" secondItem="IPI-Oj-Cuv" secondAttribute="centerX" id="yJt-ds-63t"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="BLh-Pa-Ctb"/>
+            <point key="canvasLocation" x="138.40000000000001" y="99.850074962518747"/>
+        </view>
+    </objects>
+</document>
